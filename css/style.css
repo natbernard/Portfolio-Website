@@ -602,21 +602,19 @@ h3.my-profession{
     cursor: pointer;
 }
 .tools .tools-item-inner .tools-img img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     display: block;
 }
 
-.tools .img-size{
-    /* overflow:hidden; */
-    /* position:relative; */
+.img-size{
+    height: 8rem;
+    width: 100%;
+    max-width: 18rem;
+    float: left;
+    /* object-fit: fill; */
     
-}
-.tools .img-size img{
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    
+
 }
 
 /* Contact */
